@@ -1,3 +1,5 @@
+//Input: > node fetcher.js http://www.example.edu/ ./index.html
+
 const request = require('request');
 const fs = require('fs'); //To write file.
 const readline = require('readline');
@@ -53,4 +55,3 @@ request(URL, (error, response, body) => {
 
 
 //body is a bunch of characters, and 1 char = 1 byte.
-//Input: > node fetcher.js http://www.example.edu/ ./index.html
